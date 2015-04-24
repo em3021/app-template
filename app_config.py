@@ -38,17 +38,17 @@ ASSETS_SLUG = '$NEW_PROJECT_SLUG'
 DEPLOYMENT
 """
 PRODUCTION_S3_BUCKET = {
-    'bucket_name': 'apps.npr.org',
+    'bucket_name': 'apps.emartinez.me',
     'region': 'us-east-1'
 }
 
 STAGING_S3_BUCKET = {
-    'bucket_name': 'stage-apps.npr.org',
+    'bucket_name': 'stage-apps.emartinez.me',
     'region': 'us-east-1'
 }
 
 ASSETS_S3_BUCKET = {
-    'bucket_name': 'assets.apps.npr.org',
+    'bucket_name': 'assets.apps.emartinez.me',
     'region': 'us-east-1'
 }
 
@@ -119,10 +119,8 @@ NPR_DFP = {
 """
 SERVICES
 """
-NPR_GOOGLE_ANALYTICS = {
-    'ACCOUNT_ID': 'UA-5828686-4',
-    'DOMAIN': PRODUCTION_S3_BUCKET['bucket_name'],
-    'TOPICS': '' # e.g. '[1014,3,1003,1002,1001]'
+GOOGLE_ANALYTICS = {
+    'ACCOUNT_ID': 'UA-62219668-1'
 }
 
 
